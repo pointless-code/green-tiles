@@ -14,7 +14,7 @@ docker run  \
     -e GIT_URL="your_github_repo_in_ssh" \
     -e START_DATE="2023-02-01" \
     -e END_DATE="2023-12-30" \
-    -v path/to/your/local/ssh-key:/root/.ssh/my_ssh_key \   
+    -v path/to/your/local/ssh-key:/root/.ssh/my_ssh_key \
     pointlesscode/green-tiles
 ```
 
